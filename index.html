@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pritam Lendale - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS Library CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" onclick="toggleDarkMode()">
+      <span class="slider round"></span>
+    </label>
+    <span class="mode-label">🌙 Dark Mode</span>
+  </div>
+
+  <nav>
+    <a href="#bio">Bio</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container ">
+    <!-- <img src="images.jpg" alt="baground image" class="background-image" /> -->
+    <h1>Pritam Pandurang Lendale</h1>
+    <img src="me6.jpg" alt="Pritam Lendale" class="profile-pic" />
+    <p><strong>Email:</strong> <a href="mailto:pritamlendale@gmail.com">pritamlendale@gmail.com</a></p>
+    <p><strong>Phone:</strong> 7822058623</p>
+    <p><strong>Location:</strong> Palam, Maharashtra</p>
+    <a href="resume.pdf" class="resume-btn" download>📄 Download Resume</a>
+
+    <button onclick="toggleBio()">Show Bio</button>
+
+    <div id="bio" class="hidden">
+      <h2>About Me</h2>
+      <p>Hi, I’m <strong>Pritam Lendale</strong>, a passionate BCA student...</p>
+      <!-- (Same content as before) -->
+    </div>
+
+    <div id="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <h3>🎓 College Website</h3>
+        <p>HTML, CSS, JS responsive website.</p>
+        <a href="#">View Project</a>
+      </div>
+      <!-- Add more projects here -->
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills">
+      <h2>Skills</h2>
+      <div class="skill">
+        <label>HTML</label>
+        <div class="skill-bar"><div style="width: 95%">95%</div></div>
+      </div>
+      <div class="skill">
+        <label>CSS</label>
+        <div class="skill-bar"><div style="width: 90%">90%</div></div>
+      </div>
+      <div class="skill">
+        <label>JavaScript</label>
+        <div class="skill-bar"><div style="width: 80%">80%</div></div>
+      </div>
+      <div class="skill">
+        <label>C Programming</label>
+        <div class="skill-bar"><div style="width: 85%">85%</div></div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+<!-- Testimonials Section -->
+<div id="testimonials">
+  <h2>🌟 Testimonials</h2>
+  
+  <div class="testimonial-card">
+    <p>"Pritam is a dedicated student with strong web development skills. Highly recommend him!"</p>
+    <h4>– Prof. Suresh Patil, Gyanadeep Mahavidyalaya</h4>
+  </div>
+
+  <div class="testimonial-card">
+    <p>"He built our college webpage within time. Great job and design!"</p>
+    <h4>– Principal, Gyanadeep College</h4>
+  </div>
+
+  <div class="testimonial-card">
+    <p>"Creative mind and always learning new things. Love his projects."</p>
+    <h4>– Friend, Rohan Kale</h4>
+  </div>
+</div>
+
+<div id="projects">
+  <h2>My Projects</h2>
+
+  <div class="filter-buttons">
+    <button onclick="filterProjects('all')">All</button>
+    <button onclick="filterProjects('web')">Web</button>
+    <button onclick="filterProjects('app')">Apps</button>
+    <button onclick="filterProjects('design')">Design</button>
+  </div>
+
+  <div class="project-list">
+    <div class="project-card" data-category="web">
+      <h3>🎓 College Website</h3>
+      <p>HTML, CSS, JS website</p>
+    </div>
+
+    <div class="project-card" data-category="app">
+      <h3>📱 Calculator App</h3>
+      <p>JavaScript-based calculator</p>
+    </div>
+
+    <div class="project-card" data-category="design">
+      <h3>🎨 Logo Design</h3>
+      <p>Canva based creative logo</p>
+    </div>
+
+    <div class="project-card" data-category="web">
+      <h3>💼 Portfolio Site</h3>
+      <p>Your own portfolio</p>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Pritam Lendale | Made with ❤️ in India</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- AOS Library JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
