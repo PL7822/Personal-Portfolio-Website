@@ -21,7 +21,8 @@ A clean, responsive, and interactive personal portfolio website built using **HT
 
 ## 📸 Screenshots
 
-![Portfolio Screenshot](assets/portfolio.png)
+![Website Preview](Screenshot%202025-07-23%20125513.png)
+
 
 ## 🚀 How to Use
 
