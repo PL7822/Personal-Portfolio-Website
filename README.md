@@ -21,8 +21,7 @@ A clean, responsive, and interactive personal portfolio website built using **HT
 
 ## 📸 Screenshots
 
-> *(You can add screenshots here if you want. Use Markdown like this:)*  
-> `![Screenshot](link-to-image.png)`
+![Portfolio Screenshot](assets/portfolio.png)
 
 ## 🚀 How to Use
 
